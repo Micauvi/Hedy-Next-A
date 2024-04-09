@@ -1,9 +1,13 @@
 import Image from "next/image";
+import NavBar from "./components/NavBar";
+import Home from "./components/Home";
 
-export default function Home() {
+export default function App() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>in progress asd</h1>
+
+    <main className="">
+      <Home />
+
     </main>
   );
 }
