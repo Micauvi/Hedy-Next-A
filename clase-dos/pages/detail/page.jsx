@@ -55,7 +55,7 @@ const ProductDetail = () => {
           <div className="flex ">
             {products.slice(4, 7).map((image, index) => (
               <div key={index} className="flex md:ml-5 md:mr-5">
-                <Link href={`/detail/${products.id}`}>
+                <Link href={`/detail/${image.id}`}>
                   <img
                     className="w-32 h-44 object-cover  rounded-3xl"
                     src={image.image}
